@@ -43,7 +43,7 @@
             <div class="busniss-content">
                 <h2 class="busniss-content-title">Biznesingizni keyingi bosqichga olib chiqing</h2>
                 <p class="busniss-content-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-                <a href="#" class="busniss-content-link">Xizmatlar bilan tanishish</a>
+                <a href="#services" class="busniss-content-link">Xizmatlar bilan tanishish</a>
             </div>
             <div class="busniss-video">
                 <iframe class="iframe" src="https://www.youtube.com/embed/6_pru8U2RmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,7 +51,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <h2 class="services-title">Xizmatlar</h2>
             <p class="services-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
@@ -98,10 +98,164 @@
                 </li>
             </ul>
 
-            
+            <ul class="services-link-list">
+                <li class="services-link-list-item">
+                    <a href="#form" class="services-link1">Buyurtma berish</a>
+                </li>
+                <li class="services-list-link-item">
+                    <a href="#" class="services-link">Xizmatlar sahifasiga o’tish</a>
+                </li>
+            </ul>
 
             
         </div>
     </section>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="about-title">Biz qanday ishlaymiz?</h2>
+            <p class="about-info">
+                Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex,<br> eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+            </p>
+            <ul class="about-list">
+                <li class="about-item">
+                    <div class="about-item-photo">
+                        <img src="./img/about1.png" alt="Photo people" class="about-item-photo-img">
+                    </div>
+                    <div class="about-item-content">
+                        <h3 class="about-item-content-title">Talablarni aniqlab chiqamiz</h3>
+                        <p class="about-item-content-info">
+                            Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                        </p>
+                    </div>
+                </li>
+                <li class="about-item">
+                    
+                    <div class="about-item-content">
+                        <h3 class="about-item-content-title">Talablarni aniqlab chiqamiz</h3>
+                        <p class="about-item-content-info">
+                            : nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                        </p>
+                    </div>
+                    <div class="about-item-photo">
+                        <img src="./img/about2.png" alt="Photo woman" class="about-item-photo-img">
+                    </div>
+                </li>
+                <li class="about-item">
+                    <div class="about-item-photo">
+                        <img src="./img/about3.png" alt="photo programmer" class="about-item-photo-img">
+                    </div>
+                    <div class="about-item-content">
+                        <h3 class="about-item-content-title">Talablarni aniqlab chiqamiz</h3>
+                        <p class="about-item-content-info">
+                            : nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                        </p>
+                    </div>
+                </li>
+                <li class="about-item">
+                    
+                    <div class="about-item-content">
+                        <h3 class="about-item-content-title">Talablarni aniqlab chiqamiz</h3>
+                        <p class="about-item-content-info">
+                            : nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                        </p>
+                    </div>
+                    <div class="about-item-photo">
+                        <img src="./img/about4.png" alt="photo man and woman winner" class="about-item-photo-img">
+                    </div>
+                </li>
+                <li class="about-item">
+                    <div class="about-item-photo">
+                        <img src="./img/about5.png" alt="boy" class="about-item-photo-img">
+                    </div>
+                    <div class="about-item-content">
+                        <h3 class="about-item-content-title">Talablarni aniqlab chiqamiz</h3>
+                        <p class="about-item-content-info">
+                            : nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                        </p>
+                    </div>
+                </li>
+            </ul>
+
+            <a href="#form" class="about-link">Buyurtma berish</a>
+        </div>
+    </section>
+
+    <main class="order">
+        <div class="container">
+            <h2 class="order-title">Buyurtma berish</h2>
+            <p class="order-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+            <form action="https://echo.htmlacademy.ru" method="POST" class="form" id="form">
+                <input type="text" placeholder="Ismingiz" name="name" required class="input">
+                <input type="number" placeholder="Telefon raqamingiz" name="Phono Number" required class="input">
+                <select name="Xizmat turi" class="select">
+                    <option value="XT">Xizmat turi</option>
+                    <option value="XT">Xizmat turi</option>
+                    <option value="XT">Xizmat turi</option>
+                </select>
+                <img src="./img/Polygon.png" alt="Polygon" class="select-img">
+                <button class="form-button" type="submit">Buyurtma berish</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-item active">
+                    <h2 class="footer-item-title">Copyright 2020</h2>
+                    <p class="footer-item-info">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
+                </li>
+                <li class="footer-item">
+                    <h2 class="footer-item-title">Copyright 2020</h2>
+                    <ul class="footer-item-list">
+                        <li class="footer-item-item">
+                            <a href="#" class="footer-item-item-link">Bosh sahifa</a>
+                        </li>
+                        <li class="footer-item-item">
+                            <a href="#" class="footer-item-item-link">Xizmatlar</a>
+                        </li>
+                        <li class="footer-item-item">
+                            <a href="#" class="footer-item-item-link">Portfolio</a>
+                        </li>
+                        <li class="footer-item-item">
+                            <a href="#" class="footer-item-item-link">Jamoa</a>
+                        </li>
+                        <li class="footer-item-item">
+                            <a href="#" class="footer-item-item-link">Blog</a>
+                        </li>
+                        <li class="footer-item-item">
+                            <a href="#" class="footer-item-item-link">Kontaktlar</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="footer-item">
+                    <h2 class="footer-item-title">Copyright 2020</h2>
+                    <ul class="footer-item-list2">
+                        <li class="footer-item-item2">
+                            <a href="https://t.me/Azamatulla" class="footer-item-item2-link" target="_blank"x>
+                                <img src="./img/telegram.png" alt="Telegram">
+                                Telegram
+                            </a>
+                        </li>
+                        <li class="footer-item-item2">
+                            <a href="https://www.facebook.com/azamat.ortiqov.7946/" class="footer-item-item2-link" target="_blank">
+                                <img src="./img/facebook.png" alt="facebook">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item-item2">
+                            <a href="https://www.instagram.com/azamat_ortiqov_/" class="footer-item-item2-link" target="_blank">
+                                <img src="./img/instagram.png" alt="instagram">
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
