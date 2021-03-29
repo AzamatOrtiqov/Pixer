@@ -747,6 +747,38 @@ body {
     .container {
         width: 300px;
     }
+
+    .services-link1,
+    .services-link {
+        font-size: 8px;
+    }
+
+    .services-link1 {
+        padding: 8px 16px;
+    }
+
+    .about-item-content-title {
+        font-size: 16px;
+    }
+
+    .about-item-content-info {
+        font-size: 12px;
+    }
+
+    .form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .select-img {
+        top: 59%;
+        left: 89%;
+    }
+
+    .form-button {
+        width: 130px;
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 320px) {
